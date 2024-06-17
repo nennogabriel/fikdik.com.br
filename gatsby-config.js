@@ -69,12 +69,12 @@ module.exports = {
         specialChars: "/:",
       },
     },
-    {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
-      options: {
-        fonts: Object.keys(googleFonts).map(k => googleFonts[k]),
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-prefetch-google-fonts",
+    //   options: {
+    //     fonts: Object.keys(googleFonts).map(k => googleFonts[k]),
+    //   },
+    // },
     {
       resolve: "gatsby-plugin-purgecss",
       options: {
